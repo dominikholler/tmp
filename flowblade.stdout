@@ -1,0 +1,246 @@
+FLOWBLADE MOVIE EDITOR 0.18
+---------------------------
+Launch script dir: /opt/flowblade
+Running from filesystem...
+MLT found, version: 0.7.7
+OS: Ubuntu precise (12.04.5 LTS)
+Python 2.7.3 (default, Dec 18 2014, 19:03:52) 
+[GCC 4.6.3]
+GTK+ version: (2, 24, 10)
+Locale: de_DE
+Detecting environment...
+---
+video_codecs:
+  - a64multi
+  - a64multi5
+  - asv1
+  - asv2
+  - bmp
+  - cljr
+  - dnxhd
+  - dpx
+  - dvvideo
+  - ffv1
+  - ffvhuff
+  - flashsv
+  - flv
+  - gif
+  - h261
+  - h263
+  - h263p
+  - huffyuv
+  - jpegls
+  - ljpeg
+  - mjpeg
+  - mpeg1video
+  - mpeg2video
+  - mpeg4
+  - msmpeg4v2
+  - msmpeg4
+  - pam
+  - pbm
+  - pcx
+  - pgm
+  - pgmyuv
+  - png
+  - ppm
+  - qtrle
+  - rawvideo
+  - roqvideo
+  - rv10
+  - rv20
+  - sgi
+  - snow
+  - svq1
+  - targa
+  - tiff
+  - v210
+  - v410
+  - wmv1
+  - wmv2
+  - zlib
+  - zmbv
+  - libdirac
+  - libschroedinger
+  - libtheora
+  - libvpx
+  - libx264
+  - libxvid
+...
+---
+audio_codecs:
+  - aac
+  - ac3
+  - ac3_fixed
+  - alac
+  - eac3
+  - flac
+  - mp2
+  - nellymoser
+  - real_144
+  - vorbis
+  - wmav1
+  - wmav2
+  - roq_dpcm
+  - adpcm_adx
+  - g722
+  - g726
+  - adpcm_ima_qt
+  - adpcm_ima_wav
+  - adpcm_ms
+  - adpcm_swf
+  - adpcm_yamaha
+  - libgsm
+  - libgsm_ms
+  - libmp3lame
+  - libspeex
+  - libvo_aacenc
+  - libvo_amrwbenc
+  - libvorbis
+...
+---
+formats:
+  - a64
+  - ac3
+  - adts
+  - adx
+  - aiff
+  - amr
+  - asf
+  - ass
+  - asf_stream
+  - au
+  - avi
+  - avm2
+  - cavsvideo
+  - crc
+  - daud
+  - dirac
+  - dnxhd
+  - dts
+  - dv
+  - eac3
+  - ffm
+  - ffmetadata
+  - filmstrip
+  - flac
+  - flv
+  - framecrc
+  - framemd5
+  - g722
+  - gif
+  - gxf
+  - h261
+  - h263
+  - h264
+  - image2
+  - image2pipe
+  - ipod
+  - ivf
+  - latm
+  - m4v
+  - md5
+  - matroska
+  - matroska
+  - mjpeg
+  - mlp
+  - mmf
+  - mov
+  - mp2
+  - mp3
+  - mp4
+  - mpeg
+  - vcd
+  - mpeg1video
+  - dvd
+  - svcd
+  - mpeg2video
+  - vob
+  - mpegts
+  - mpjpeg
+  - mxf
+  - mxf_d10
+  - null
+  - nut
+  - ogg
+  - oma
+  - alaw
+  - mulaw
+  - f64be
+  - f64le
+  - f32be
+  - f32le
+  - s32be
+  - s32le
+  - s24be
+  - s24le
+  - s16be
+  - s16le
+  - s8
+  - u32be
+  - u32le
+  - u24be
+  - u24le
+  - u16be
+  - u16le
+  - u8
+  - psp
+  - rawvideo
+  - rm
+  - RoQ
+  - rso
+  - rtp
+  - rtsp
+  - sap
+  - segment
+  - smjpeg
+  - sox
+  - spdif
+  - srt
+  - swf
+  - 3g2
+  - 3gp
+  - truehd
+  - rcv
+  - voc
+  - wav
+  - webm
+  - yuv4mpegpipe
+  - alsa
+  - oss
+...
+MLT detection succeeded, 108 formats, 55 video codecs and 28 audio codecs found.
+281 MLT services found.
+Loading render profiles...
+Lossless HuffYUV / .avi...NOT available, audio codec pcm_s16le missing
+Apple ProRes 4:2:2 / .mov...NOT available, audio codec pcm_s16le missing
+AVI DV PAL 4:3...NOT available, audio codec pcm_s16le missing
+AVI DV PAL 16:9...NOT available, audio codec pcm_s16le missing
+AVI DVCPRO25 PAL 4:3...NOT available, audio codec pcm_s16le missing
+AVI DVCPRO25 PAL 16:9...NOT available, audio codec pcm_s16le missing
+AVI DVCPRO50 PAL 4:3...NOT available, audio codec pcm_s16le missing
+AVI DVCPRO50 PAL 16:9...NOT available, audio codec pcm_s16le missing
+AVI DV NTSC 4:3...NOT available, audio codec pcm_s16le missing
+AVI DV NTSC 16:9...NOT available, audio codec pcm_s16le missing
+AVI DVCPRO25 NTSC 4:3...NOT available, audio codec pcm_s16le missing
+AVI DVCPRO25 NTSC 16:9...NOT available, audio codec pcm_s16le missing
+AVI DVCPRO50 NTSC 4:3...NOT available, audio codec pcm_s16le missing
+AVI DVCPRO50 NTSC 16:9...NOT available, audio codec pcm_s16le missing
+Proxy encoding MPEG-4 Preset Ultrafast ...available
+Proxy encoding MPEG-2 Transport Stream ...available
+Loading filters...
+MLT service frei0r.alphagrad not found.
+MLT service frei0r.alphaspot not found.
+MLT service frei0r.alpha0ps not found.
+MLT service frei0r.select0r not found.
+MLT service frei0r.spillsupress not found.
+MLT service lumakey not found.
+MLT service frei0r.vignette not found.
+MLT service frei0r.emboss not found.
+MLT service frei0r.dither not found.
+MLT service frei0r.colorhalftone not found.
+MLT service frei0r.softglow not found.
+MLT service frei0r.IIRblur not found.
+MLT service frei0r.rgbnoise not found.
+MLT service lumaliftgaingamma not found.
+MLT service lift_gamma_gain not found.
