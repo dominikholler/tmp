@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<host_nics>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/b6e03a3d-34e2-4a72-b60b-21915212c5a6" id="b6e03a3d-34e2-4a72-b60b-21915212c5a6">
+        <actions/>
+        <name>eth0.3</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/b6e03a3d-34e2-4a72-b60b-21915212c5a6/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/b6e03a3d-34e2-4a72-b60b-21915212c5a6/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/b6e03a3d-34e2-4a72-b60b-21915212c5a6/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="3"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/52b04832-3de7-4985-8ba6-9f3e3f176d89" id="52b04832-3de7-4985-8ba6-9f3e3f176d89"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/243c2427-4a2b-466d-9014-b539fae43f04" id="243c2427-4a2b-466d-9014-b539fae43f04">
+        <actions/>
+        <name>eth0.2</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/243c2427-4a2b-466d-9014-b539fae43f04/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/243c2427-4a2b-466d-9014-b539fae43f04/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/243c2427-4a2b-466d-9014-b539fae43f04/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="2"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/eb0fbbbf-8fe0-4a73-b2dd-038ac4d69b16" id="eb0fbbbf-8fe0-4a73-b2dd-038ac4d69b16"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/cd571cb8-ad75-4a21-a217-3c30ec84650c" id="cd571cb8-ad75-4a21-a217-3c30ec84650c">
+        <actions/>
+        <name>eth0.1</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/cd571cb8-ad75-4a21-a217-3c30ec84650c/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/cd571cb8-ad75-4a21-a217-3c30ec84650c/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/cd571cb8-ad75-4a21-a217-3c30ec84650c/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="1"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/b422eb01-5c0f-42b5-adb5-53980646e4ad" id="b422eb01-5c0f-42b5-adb5-53980646e4ad"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/7d635ebe-d637-4801-beb1-28ce1826aff8" id="7d635ebe-d637-4801-beb1-28ce1826aff8">
+        <actions/>
+        <name>eth0.7</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/7d635ebe-d637-4801-beb1-28ce1826aff8/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/7d635ebe-d637-4801-beb1-28ce1826aff8/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/7d635ebe-d637-4801-beb1-28ce1826aff8/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="7"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/78e6a8cb-c436-473f-94d8-4179fab5d1fa" id="78e6a8cb-c436-473f-94d8-4179fab5d1fa"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/6f59325e-4815-4264-bd5c-724de828cc36" id="6f59325e-4815-4264-bd5c-724de828cc36">
+        <actions/>
+        <name>eth0.6</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/6f59325e-4815-4264-bd5c-724de828cc36/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/6f59325e-4815-4264-bd5c-724de828cc36/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/6f59325e-4815-4264-bd5c-724de828cc36/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="6"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/1c010d34-6a31-4339-9465-7e13eb75fb5f" id="1c010d34-6a31-4339-9465-7e13eb75fb5f"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/67c1a4c7-3198-4547-82b5-2b48406490be" id="67c1a4c7-3198-4547-82b5-2b48406490be">
+        <actions/>
+        <name>eth0.5</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/67c1a4c7-3198-4547-82b5-2b48406490be/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/67c1a4c7-3198-4547-82b5-2b48406490be/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/67c1a4c7-3198-4547-82b5-2b48406490be/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="5"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/611b791d-8832-40eb-86df-e888813edeef" id="611b791d-8832-40eb-86df-e888813edeef"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/44c7dcd4-8956-40d9-b882-173fddf68bda" id="44c7dcd4-8956-40d9-b882-173fddf68bda">
+        <actions/>
+        <name>eth0.4</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/44c7dcd4-8956-40d9-b882-173fddf68bda/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/44c7dcd4-8956-40d9-b882-173fddf68bda/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/44c7dcd4-8956-40d9-b882-173fddf68bda/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="4"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/d2d411f9-20a3-4d35-ab45-a93ac36cecf8" id="d2d411f9-20a3-4d35-ab45-a93ac36cecf8"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/31267efc-fb26-40fd-ba53-7401f92bf8c6" id="31267efc-fb26-40fd-ba53-7401f92bf8c6">
+        <actions/>
+        <name>eth0.10</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/31267efc-fb26-40fd-ba53-7401f92bf8c6/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/31267efc-fb26-40fd-ba53-7401f92bf8c6/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/31267efc-fb26-40fd-ba53-7401f92bf8c6/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="10"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/ffda4ac7-a819-4564-93f2-313056dd8dab" id="ffda4ac7-a819-4564-93f2-313056dd8dab"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/f720f63e-34f5-4ab5-a651-90ce918c3bb2" id="f720f63e-34f5-4ab5-a651-90ce918c3bb2">
+        <actions/>
+        <name>eth0.9</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/f720f63e-34f5-4ab5-a651-90ce918c3bb2/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/f720f63e-34f5-4ab5-a651-90ce918c3bb2/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/f720f63e-34f5-4ab5-a651-90ce918c3bb2/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="9"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/7a93fd3b-226b-49e1-b600-15d99dcf7052" id="7a93fd3b-226b-49e1-b600-15d99dcf7052"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/6d260b92-afb9-4ede-9579-e6a85358a598" id="6d260b92-afb9-4ede-9579-e6a85358a598">
+        <actions/>
+        <name>eth0.8</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/6d260b92-afb9-4ede-9579-e6a85358a598/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/6d260b92-afb9-4ede-9579-e6a85358a598/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/6d260b92-afb9-4ede-9579-e6a85358a598/statistics" rel="statistics"/>
+        <base_interface>eth0</base_interface>
+        <boot_protocol>none</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address></address>
+            <gateway></gateway>
+            <netmask></netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <gateway>::</gateway>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>none</ipv6_boot_protocol>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <vlan id="8"/>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/da3c53e1-3e90-4976-8d90-6a443dddc072" id="da3c53e1-3e90-4976-8d90-6a443dddc072"/>
+    </host_nic>
+    <host_nic href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/e4a870f4-ec33-4907-a2e2-6f543df153fa" id="e4a870f4-ec33-4907-a2e2-6f543df153fa">
+        <actions/>
+        <name>eth0</name>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/e4a870f4-ec33-4907-a2e2-6f543df153fa/networklabels" rel="networklabels"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/e4a870f4-ec33-4907-a2e2-6f543df153fa/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb/nics/e4a870f4-ec33-4907-a2e2-6f543df153fa/statistics" rel="statistics"/>
+        <boot_protocol>dhcp</boot_protocol>
+        <bridged>true</bridged>
+        <custom_configuration>false</custom_configuration>
+        <ip>
+            <address>192.168.122.139</address>
+            <gateway>192.168.122.1</gateway>
+            <netmask>255.255.255.0</netmask>
+            <version>v4</version>
+        </ip>
+        <ipv6>
+            <address>2001:db8:ca2:2:1::2a</address>
+            <gateway>::</gateway>
+            <netmask>64</netmask>
+            <version>v6</version>
+        </ipv6>
+        <ipv6_boot_protocol>dhcp</ipv6_boot_protocol>
+        <mac>
+            <address>52:54:00:26:d3:ca</address>
+        </mac>
+        <mtu>1500</mtu>
+        <properties/>
+        <status>up</status>
+        <host href="/ovirt-engine/api/hosts/2127de9d-317b-4829-a10b-0a4c68093bdb" id="2127de9d-317b-4829-a10b-0a4c68093bdb"/>
+        <network href="/ovirt-engine/api/networks/00000000-0000-0000-0000-000000000009" id="00000000-0000-0000-0000-000000000009"/>
+    </host_nic>
+</host_nics>
