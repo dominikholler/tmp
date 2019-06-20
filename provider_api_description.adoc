@@ -301,7 +301,7 @@ POST /v2.0/tokens ::
 |Name                | Description
 |passwordCredentials | username and password
 |username            | See "User Names for Authentication" in
-                       link:../README.adoc#user-names-for-authentication[README]
+                       link:README.adoc#user-names-for-authentication[README]
 |password            | The password for the user
 |token               | If no passwordCrendentials is provided, the token is validated.
 |=========================================================
