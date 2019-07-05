@@ -17,35 +17,39 @@ defined in link:http://www.openvswitch.org/support/dist-docs/ovn-architecture.7.
 
 ### Isolated overlay Networks
 
-ovirt-provider-ovn enables VM administrators, to connect multiple VMs with
-isolated networks on OSI layer 2, without changing the configuration of
-physical networking devices.
-
+ovirt-provider-ovn enables VM administrators, to provide VMs with virtual,
+isolated OSI layer 2 networks, without needing changes to the physical network
+device configuration.
 The networks can be customized according to a variety of parameters - MTU, and
-MAC spoofing protection, for instance.
-
-These networks can have OSI layer 3 functionality like IP Address Management
-and be interconnected via routers.
+MAC spoofing protection, etc.
+These networks can also work at OSI layer 3, supporting features such as:
+ - IPAM
+ - dhcp
+ - routing
+ - security groups
 
 ### Physical Networks
 
-It is also possible to connect the OVN logical networks to a physical network,
-akin to OpenStack's link:https://ovirt.org/develop/release-management/features/network/provider-physical-network.html[physnet],
-with the option of having the OVN networks traffic on the physical external
-network VLAN tagged. Connecting to external networks is **limited** to oVirt
-clusters configured to use *Open vSwitch* switch type, which is currently in
-tech-preview.
+It is possible to connect the OVN logical networks to a physical network,
+akin to OpenStack's link:https://ovirt.org/develop/release-management/features/network/provider-physical-network.html[physnet].
+The traffic on the physical external network can optionally be VLAN tagged.
+Connecting to external networks is **limited** to oVirt clusters configured to
+use *Open vSwitch* switch type, which is currently in tech-preview.
 
 ## Implemented Subset of the Networking API
 
-This sections list all path which are implemented by the ovirt-provider-ovn.
+This section lists all API features implemented by ovirt-provider-ovn
 
-Except for the update subnet, create/update Security group rules and
-Security groups, all attributes which are not listed in the following tables
-are ignored.
+The presence of an attribute not listed below will result in
+Bad Request response (HTTP 400 status code) in case of the following API methods:
+ - update subnet,
+ - create/update Security group rules
+ - create/update Security groups methods
+
+For all other methods, the attributes will simply be ignored.
 
 ### Filtering
-The filter extension has been implemented for all the aforementioned resources,
+The filter extension has been implemented for all the subsequent resources,
 meaning that the following examples are possible:
 
 - GET /v2.0/networks?name=<network_name>
@@ -201,6 +205,7 @@ POST /v2.0/subnets ::
 | ipv6_address_mode | the IPv6 address modes specifies mechanisms for assigning
                       IP addresses. Values are dhcpv6-stateful or
                       dhcpv6-stateless
+| enable_dhcp       | Has to be *true*.
 |=========================================================
 
 PUT /v2.0/subnets/<subnet_uuid> ::
@@ -301,10 +306,50 @@ POST /v2.0/tokens ::
 |Name                | Description
 |passwordCredentials | username and password
 |username            | See "User Names for Authentication" in
-                       link:README.adoc#user-names-for-authentication[README]
+                       link:../README.adoc#user-names-for-authentication[README]
 |password            | The password for the user
 |token               | If no passwordCrendentials is provided, the token is validated.
 |=========================================================
 
 GET /v2.0 :: No inputs.
 
+## Accessing ovirt-provider-ovn
+
+Simple management of <<networks,networks>> and <<subnets,subnets>> can be done via
+oVirt's Administration Portal.
+
+In addition to <<networks,networks>> and <<subnets,subnets>>,
+link:http://manageiq.org/[ManageIQ] and
+link:https://www.redhat.com/en/technologies/management/cloudforms[Red Hat CloudsForms]
+enable the usage of <<routers,routers>>.
+
+All features implemented by ovirt-provider-ovn, including <<security,security groups>>,
+are known to work with the the
+link:https://github.com/ansible/ansible/tree/devel/lib/ansible/modules/cloud/openstack[OpenStack modules]
+of Ansible and the
+link:https://docs.openstack.org/python-openstackclient/latest/[command-line client for OpenStack (OpenStackClient)].
+
+Ansible and the command-line client can be
+link:https://docs.openstack.org/python-openstackclient/latest/configuration/[configured]
+by by the environment variables:
+```
+unset OS_SERVICE_TOKEN
+export OS_USERNAME=admin@internal
+export OS_PASSWORD='123456'
+export OS_AUTH_URL=https://localhost:35357/v2.0
+export OS_CACERT=/etc/pki/ovirt-engine/ca.pem
+
+```
+or clouds.yml:
+```
+clouds:
+  ovirt:
+    auth:
+      auth_url: https://0.0.0.0:35357/v2.0
+      password: '123456'
+      username: admin@internal
+    verify: false
+```
+Examples of the usage of Ansible can be found in
+link:https://github.com/oVirt/ovirt-system-tests/tree/master/network-suite-master/ansible[network-suite of ovirt-system-tests]
+and the link:../provider/integration-tests/ansible/[integration-tests]
